@@ -117,6 +117,8 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-gradient-to-br from-violet-500 via-violet-600 to-purple-500 text-foreground;
+    background-image: url("/bg.jpg");
+    background-size: cover;
+    background-position: center;
   }
 }
